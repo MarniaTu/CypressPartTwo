@@ -6,7 +6,7 @@ describe('cinema tickets service', () => {
   context('main page', () => {
     beforeEach(() => {
 
-      cy.visit('http://qamid.tmweb.ru/client/index.php');
+      cy.visit('/client/index.php');
   
     });
 
@@ -55,7 +55,7 @@ describe('cinema tickets service', () => {
 
     beforeEach(() => {
 
-      cy.visit('http://qamid.tmweb.ru/admin');
+      cy.visit('/admin');
   
     });
 
@@ -130,14 +130,14 @@ describe('cinema tickets service', () => {
   context('book tickets to available hall', () => {
     beforeEach(() => {
 
-      cy.visit('http://qamid.tmweb.ru/admin');
+      cy.visit('/admin');
       cy.admin_login(login[0].email, login[0].password);
   
     });
 
     afterEach(() => {
 
-      cy.visit('http://qamid.tmweb.ru/admin');
+      cy.visit('/admin');
       
       cy.get(selectors.admin_page_choose_hall_5_for_sales_activation).click();
       cy.contains('Закрыть продажу билетов').click();
@@ -154,7 +154,7 @@ describe('cinema tickets service', () => {
       cy.contains('Открыть продажу билетов').click();
       cy.get(selectors.admin_page_announce_sales_open).should('have.text', 'Продажа билетов открыта!!!').should('be.visible');
 
-      cy.visit('http://qamid.tmweb.ru/client/index.php');
+      cy.visit('/client/index.php');
       cy.contains('"зал 5"').should('be.visible');
       cy.get(selectors.main_page_third_day_in_calendar).click();
       cy.contains('12:00').click();
