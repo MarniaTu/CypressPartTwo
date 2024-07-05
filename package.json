@@ -1,0 +1,27 @@
+{
+  "name": "cypresspart2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarniaTu/CypressPartTwo.git"
+  },
+  "keywords": [
+    "cypress",
+    "e2e",
+    "API"
+  ],
+  "author": "Marina Turbina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarniaTu/CypressPartTwo/issues"
+  },
+  "homepage": "https://github.com/MarniaTu/CypressPartTwo#readme",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  }
+}

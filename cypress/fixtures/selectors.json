@@ -1,0 +1,20 @@
+{
+    "main_page_calendar_days": "a.page-nav__day",
+    "main_page_first_movie_hall_title": ":nth-child(1) > .movie-seances__hall > .movie-seances__hall-title",
+    "main_page_second_movie_first_hall_title": ":nth-child(2) > :nth-child(2) > .movie-seances__hall-title",
+    "main_page_second_movie_second_hall_title": ":nth-child(3) > .movie-seances__hall-title",
+    "main_page_third_movie_hall_title": ":nth-child(3) > .movie-seances__hall > .movie-seances__hall-title",
+    "admin_page_authorization_title": ".login__title",
+    "admin_page_title_after_login": "#hall-control > .conf-step__header > .conf-step__title",
+    "admin_login_email_field": "[for='email'] > .login__input",
+    "admin_login_password_field": "[for='pwd'] > .login__input",
+    "admin_page_choose_hall_5_for_sales_activation": "#start-sales > [style='display: block;'] > .conf-step__selectors-box > :nth-child(1) > .conf-step__radio",
+    "admin_page_item_1_in_available_halls_list": ".conf-step__list > :nth-child(1)",
+    "admin_page_movie_title_for_hall_5": "[data-hall-id='2611'] > .conf-step__seances-timeline > .conf-step__seances-movie",
+    "admin_page_announce_sales_open": ".text-center > .conf-step__paragraph",
+    "main_page_third_day_in_calendar": "a:nth-child(3)",
+    "hall_5_row_6_seat_7": ":nth-child(6) > :nth-child(7)",
+    "tickets_confimation_film_title": ".ticket__info-wrapper > :nth-child(1)",
+    "tickets_confirmation_hall_title": ".ticket__info-wrapper > :nth-child(3)",
+    "tickets_confirmation_movie_start_time": ".ticket__info-wrapper > :nth-child(5)"
+}

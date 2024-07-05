@@ -1,0 +1,31 @@
+[
+  {
+  "email": "qamid@qamid.ru",
+  "password": "qamid"
+},
+
+{
+"email": "qamid@mail.ru",
+"password": "qamid"
+
+},
+
+{
+"email": "qamid@qamid.ru",
+"password": "qami"
+  
+},
+
+{
+"email": "",
+"password": "qamid"
+    
+},
+
+{
+"email": "qamid@qamid.ru",
+"password": ""
+      
+}
+
+]
